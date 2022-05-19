@@ -1,0 +1,32 @@
+body{background-image: url("https://www.google.com.ar/url?sa=i&url=https%3A%2F%2Ffondosmil.com%2Fpaisajes&psig=AOvVaw2tnnRXMEzOL49ztClceNGz&ust=1653078609092000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOD7nfCz7PcCFQAAAAAdAAAAABAD");
+
+}
+
+.card{
+    background-color: lightblue;
+    margin: 0px 50px 10px 0px;
+    width: 30%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonx{
+    position: relative;
+    background-color: aqua;
+    float: right;
+    margin: 6px;
+    border-radius: 5px;   
+    cursor: pointer;
+}
+
+.nombre{
+    justify-content: center;
+    align-items: center;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+
+}
